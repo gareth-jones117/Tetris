@@ -15,3 +15,5 @@ const GameStats = ({ gameStats }) => {
     </ul>
   )
 }
+
+export default React.memo(GameStats)
