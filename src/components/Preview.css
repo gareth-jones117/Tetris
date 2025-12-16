@@ -9,7 +9,7 @@
 
 .Preview-board {
   display: flex;
-  grid-gap: 2px;
+  grid-gap: 2px; /* might need to change to gap, as this is old code */
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
   width: 11vw;
