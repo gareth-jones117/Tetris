@@ -14,7 +14,7 @@ export const Key = {
   ArrowRight: Action.Right,
   KeyP: Action.Pause,
   Space: Action.FastDrop,
-  KeyR: Action.Quit,
+  KeyESQ: Action.Quit,
 }
 
 export const actionForKey = ({ keycode } = Key[keycode])

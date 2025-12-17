@@ -1,6 +1,7 @@
 import './GameController.css'
 
 import { Action, actionForKey } from '/src/utilities/Input'
+import { playerController } from '/src/utilities/usePlayerlayerController'
 
 const GameController = ({
   board,
