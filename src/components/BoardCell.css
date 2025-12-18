@@ -11,7 +11,7 @@
   border-right: 3px solid rgb(0, 0, 0, 0.1);
 }
 
-.Sparkle {
+.tetromino .Sparkle {
   position: absolute;
   z-index: 10;
   width: 6px;
@@ -22,9 +22,13 @@
   border-radius: 4px 4px;
 }
 
-/* .tetromino.ghost .Sparkle {
+.tetromino.ghost {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.tetromino.ghost .Sparkle {
   opacity: 0;
-} */
+}
 
 .tetromino__i {
   background-color: rgba(80, 227, 230, 1);

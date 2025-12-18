@@ -17,4 +17,7 @@ export const Key = {
   KeyESQ: Action.Quit,
 }
 
+export const actionIsDrop = (action) =>
+  [Action.SlowDrop, Action.FastDrop].includes(action)
+
 export const actionForKey = ({ keycode } = Key[keycode])
